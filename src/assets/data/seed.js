@@ -6,7 +6,7 @@ export const products = [
     {
         id: 1,
         title: 'Yellow Pail',
-        description: 'On-demand sand castle construction expertise.',
+        description: 'On-demand sand castle construction expertise lorem50.',
         url: '#',
         votes: generateVoteCount(),
         submitterAvatarUrl: '/images/avatars/daniel.jpg',

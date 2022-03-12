@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Product.module.scss';
+import { FaVoteYea } from 'react-icons/fa';
 
 export const Product = (props) => {
     return (
@@ -11,6 +12,10 @@ export const Product = (props) => {
                 <div className={s.description}>
                     <a href={props.url}>{props.title}</a>
                     <p>{props.description}</p>
+                </div>
+                <div className={s.votes}>
+                    <button><i><FaVoteYea/></i></button>
+                    <span>{props.votes}</span>
                 </div>
                 <div className={s.extra}>
                     <span>Submitted by:</span>

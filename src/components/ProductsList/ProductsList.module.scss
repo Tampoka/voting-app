@@ -1,3 +1,8 @@
-.productsList{
-
+.productsList {
+  margin: 0 auto;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
 }
