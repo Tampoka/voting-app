@@ -9,13 +9,15 @@ export const Product = () => {
             <div className={s.image}>
                 <img src={aqua} alt=""/>
             </div>
-            <div className={s.description}>
-                <a href="#"> Fort Knight</a>
-                <p>Authentic renaissance actors, delivered in just two weeks.</p>
-            </div>
-            <div className={s.extra}>
-                <span>Submitted by:</span>
-                <img  className={s.avatarImg} src={daniel} alt="userAvatar"/>
+            <div className={s.itemContent}>
+                <div className={s.description}>
+                    <a href="#"> Fort Knight</a>
+                    <p>Authentic renaissance actors, delivered in just two weeks.</p>
+                </div>
+                <div className={s.extra}>
+                    <span>Submitted by:</span>
+                    <img className={s.avatarImg} src={daniel} alt="userAvatar"/>
+                </div>
             </div>
         </div>
     );
