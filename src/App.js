@@ -1,4 +1,5 @@
 import './App.css';
+import {ProductsList} from './components/ProductsList/ProductsList';
 
 function App() {
     return (
@@ -6,6 +7,7 @@ function App() {
             <header>
                 <h1>Popular Products</h1>
             </header>
+            <ProductsList/>
         </div>
     );
 }
